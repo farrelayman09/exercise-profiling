@@ -29,6 +29,23 @@
   <img width="700" alt="Screen Shot 2024-03-13 at 16 23 46" src="https://github.com/farrelayman09/exercise-profiling/assets/125422538/1ebd4d4b-7209-4293-8f31-ef9ff94d0dfa">
 <br>
 
+## Explanation
+From the comparison images above it is visible that a lot of changes occured. These are the details of time execution ranges comparison before and after optimization (in ms):<br>
+
+**test_plan_1**<br>
+Before: 52307-55380<br>
+After: 3324-3787<br>
+
+**test_plan_2**<br>
+Before: 1409-1932<br>
+After: 64-251<br>
+
+**test_plan_3**<br>
+Before: 65-148<br>
+After: 56-99<br>
+
+From the comparison images above it is visible that before optimization occured, the execution time is relatively long. But, after optimization, all the execution time has been reduced which will in turn enhance the performance of the code. 
+
 # Reflection
 1. What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance? <br>
 JMeter is primarily used for load and stress testing applications to evaluate how well they perform under conditions such as heavy user loads, concurrent requests, etc. It helps in identifying bottlenecks and weaknesses in the application's architecture, infrastructure, or codebase. Meanwhile, Profiling with IntelliJ Profiler is used to analyze the runtime behavior of an application, focusing on the usage of CPU, memory allocation, thread activity, method execution times, etc. It helps in identifying areas of the code that are consuming the most resources and causing performance bottlenecks.
